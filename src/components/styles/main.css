@@ -1,15 +1,14 @@
 :root{
-  --contador:#EEAC3A;
-  --lightContador:#FDF7EC;
-  --ghostWhite:#FEFBFF;
-  --lapisLazuli: #216485;
-  --slateGray: #6B808D;
-  --charcoal:#153A4C;
-  --columbiaBlue:#CBE7F4;
-  --skyBlue:#95C0D6;
-  --airBlue:#72A8C3;
-  --white:#F8FDFE;
-  --aliceBlue:#E5F4FB;
+  --timberwolf: #d4d7cfff;
+  --seasalt: #f7f6f7ff;
+  --ash-gray: #afbeb8ff;
+  --dark-slate-gray: #3a5d56ff;
+  --antiflash-white: #efefefff;
+  --white-smoke: #f6f5f4ff;
+  --ecru: #a9a06aff;
+  --viridian: #468871ff;
+  --ecru-2: #cebc88ff;
+  --dun: #d7cdb2ff;
   --fuente:"Yeseva One", serif;
   --secFont: "PT Serif", serif;
 }
@@ -116,21 +115,21 @@
 }
 
 .cardButton{
-  background-color: var(--airBlue);
-  border: 1px solid var(--charcoal);
-  color: var(--ghostWhite);
+  background-color: var(--viridian);
+  border: 1px solid var(--dark-slate-gray);
+  color: var(--antiflash-white);
 }
 
 .cardButton:hover{
-  background-color: var(--ghostWhite);
-  border: 1px solid var(--charcoal);
-  color: var(--airBlue);
+  background-color: var(--antiflash-white);
+  border: 1px solid var(--dark-slate-gray);
+  color: var(--viridian);
 }
 
 .cardButton:active{
-  background-color: var(--ghostWhite);
-  border: 1px solid var(--charcoal);
-  color: var(--airBlue);
+  background-color: var(--antiflash-white);
+  border: 1px solid var(--dark-slate-gray);
+  color: var(--viridian);
 }
 
 .asistenciaFont{

@@ -39,7 +39,7 @@ function App() {
         <Modal.Body className='mx-auto'>
           <h3 className='titulo text-center'>Bienvenidos</h3>
           <h3 className='titulo text-center'>a la Invitacion de</h3>
-          <h3 className='titulo text-center'>Maíte</h3>
+          <h3 className='titulo text-center'>Ingrid</h3>
         </Modal.Body>
         <Modal.Footer className='mx-auto text-center'>
           <Button className='cardFont cardButton mx-auto fs-4 fw-bold' onClick={handleModalClose}>
