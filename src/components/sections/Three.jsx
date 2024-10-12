@@ -9,7 +9,7 @@ const Three = () => {
     <>
       <Container fluid className='threeInv pb-4'>
         <div className='pt-4 pb-3 titulo text-center'>
-          <h3 className='fw-bold' style={{fontSize:'2.4rem', fontStyle: 'normal'}}>¡Misa!</h3>
+          <h3 className='fw-bold' style={{fontSize:'2.4rem', fontStyle: 'normal'}} translate="no">¡Misa!</h3>
         </div>
         <div className='card cardFont mx-5 px-3 py-3 text-center'>
           <Image
