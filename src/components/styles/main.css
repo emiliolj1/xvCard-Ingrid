@@ -9,8 +9,8 @@
   --viridian: #468871ff;
   --ecru-2: #cebc88ff;
   --dun: #d7cdb2ff;
-  --fuente:"Yeseva One", serif;
-  --secFont: "PT Serif", serif;
+  --titulos: "Great Vibes", cursive;
+  --secFont: "Cinzel", serif;
 }
 
 .bgFooter{
@@ -24,15 +24,15 @@
 }
 
 .titulo{
-  font-family: var(--fuente);
-  font-weight: 900;
+  font-family: var(--titulos);
+  font-weight: 800;
   font-style: italic;
-  font-size: 1.8rem;
 }
 
 .cardFont{
   font-family: var(--secFont);
-  font-weight: 500;
+  font-optical-sizing: auto;
+  font-weight: 400;
 }
 
 .faceInv{
@@ -59,7 +59,7 @@
 }
 
 .fiveInv{
-  background-color: var(--lightContador);
+  background-color: var(--timberwolf);
 }
 
 .fourInv{
@@ -81,28 +81,28 @@
 .nombre{
   color: var(--seasalt);
   margin-top: 0;
-  font-family: var(--fuente);
+  font-family: var(--titulos);
   font-weight: 500;
   font-style: italic;
-  font-size: 50px;
+  font-size: 60px;
 }
 .misXv{
   color: var(--seasalt);
   margin-bottom: 0;
   font-weight: 500;
-  font-family: var(--fuente);
+  font-family: var(--titulos);
   font-style: italic;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .frase{
   color: var(--antiflash-white);
   margin: 0 1px 1px 0;
   border: 1px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: var(--secFont);
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .frase>p{
@@ -132,8 +132,25 @@
   color: var(--viridian);
 }
 
+.asisButton{
+  background-color: var(--antiflash-white);
+  border: 1px solid var(--timberwolf);
+  color: var(--dark-slate-gray);
+}
+.asisButton:hover{
+  background-color: var(--dark-slate-gray);
+  border: 1px solid var(--viridian);
+  color: var(--antiflash-white);
+}
+.asisButton:active{
+  background-color: var(--dark-slate-gray);
+  border: 1px solid var(--viridian);
+  color: var(--antiflash-white);
+}
+
+
 .asistenciaFont{
-  font-family: var(--fuente);
+  font-family: var(--secFont);
   font-weight: 600;
   color: var(--charcoal);
 }
@@ -143,7 +160,7 @@
   margin: 0 1px 1px 0;
   border: 1px;
   font-weight: 100;
-  font-family: var(--fuente);
+  font-family: var(--secFont);
   font-style: italic;
   font-size: 18px;
 }
@@ -176,4 +193,11 @@
 
 .asisBack{
   background-color: #d7e9f1;
+}
+
+.footerFont{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }

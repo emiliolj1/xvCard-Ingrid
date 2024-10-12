@@ -8,7 +8,7 @@ const Three = () => {
   return (
     <Container fluid className='threeInv pb-4'>
       <div className='pt-4 pb-3 titulo text-center'>
-        <h3 className='text-decoration-underline fw-bold fs-1'>¡Misa!</h3>
+        <h3 className='fw-bold' style={{fontSize:'2.4rem'}}>¡Misa!</h3>
       </div>
       <div className='card cardFont mx-5 px-3 py-3 text-center'>
         <Image
@@ -16,8 +16,8 @@ const Three = () => {
           className='p-3'
           src='src\components\resources\iglesia.jpg'
         />
-        <h3 className='fw-bold m-0'>Parroquia</h3>
-        <h3 className='fw-bold mt-0'>'Nstra. Sra. del Valle' </h3>
+        <h3 className='fw-bold m-0 fs-4'>Parroquia</h3>
+        <h3 className='fw-bold mt-0 fs-4'>'Nstra. Sra. del Valle' </h3>
         <p className='mb-2'><GeoAltFill/> Av. Torquinst - La Florida</p>
         <p className='fw-bold mb-1'>3 · Noviembre · 2024</p>
         <p className='fw-bold mb-1'>19:30hrs</p>
@@ -26,10 +26,10 @@ const Three = () => {
         </Button>
       </div>
       <div className='pt-4 pb-2 titulo text-center'>
-        <h3 className='text-decoration-underline fw-bold fs-1'>¡Fiesta!</h3>
+        <h3 className='fw-bold' style={{fontSize:'2.4rem'}}>¡Fiesta!</h3>
       </div>
       <div className='card cardFont mx-5 px-2 py-2 text-center'>
-        <h3 className='fw-bold pt-3'>Salon Coyote</h3>
+        <h3 className='fw-bold pt-3 fs-4'>Salon Coyote</h3>
         <p className='mb-2'><GeoAltFill/> Av. M. T. Alvear - Delfín Gallo</p>
         <p className='fw-bold mb-1'>15 · Noviembre · 2024</p>
         <p className='fw-bold mb-1'>22:30hrs</p>

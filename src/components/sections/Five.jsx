@@ -6,7 +6,7 @@ import { Clipboard2Check, Clipboard2CheckFill, GiftFill } from 'react-bootstrap-
 
 const Five = () => {
   const [copied, setCopied] = useState(false);
-  const textToCopy = 'maite.914.rias.mp';
+  const textToCopy = ' ';
 
   const handleCopy = () => {
     setCopied(true);
@@ -17,13 +17,13 @@ const Five = () => {
 
   return (
     <Container fluid className="fiveInv">
-      <div className='asistenciaFont text-center pb-2 pt-4'>
-        <h2 className='fs-1 fw-bold'>Regalos <GiftFill/></h2>
-        <p className='fs-6 my-0'>Para mi tu presencia es el mejor regalo,</p>
-        <p className='fs-6 my-0'>Pero si quieres regalarme algo y no sabes que</p>
-        <p className='fs-6 mb-3'>Te dejo esta opcion...</p>
+      <div className=' text-center pb-2 pt-4'>
+        <h2 className='titulo fw-bold' style={{fontSize:'2.6rem'}}>Regalos</h2>
+        <p className='asistenciaFont fs-6 my-0'>Para mi tu presencia es el mejor regalo,</p>
+        <p className='asistenciaFont fs-6 my-0'>Pero si quieres regalarme algo y no sabes que</p>
+        <p className='asistenciaFont fs-6 mb-3'>Te dejo esta opcion...</p>
         <CopyToClipboard text={textToCopy} onCopy={handleCopy}>
-          <Button className="cardButton cardFont fs-5 mx-auto fw-bold">
+          <Button className="cardButton fs-6 mx-auto fw-bold">
             {copied ?
               <>
                 Cbu Copiado!<Clipboard2CheckFill/>
@@ -35,7 +35,7 @@ const Five = () => {
             }
           </Button>
         </CopyToClipboard>
-        <p className='fs-4 text-decoration-underline mt-3 fst-italic'>Espero no Faltes!!</p>
+        <p className='asistenciaFont text-decoration-underline mt-3 fst-italic'>Espero no Faltes!!</p>
       </div>
     </Container>
   );
