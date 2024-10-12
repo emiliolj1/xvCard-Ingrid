@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
-import { Flower1, Flower2, GeoAltFill } from 'react-bootstrap-icons'
+import { GeoAltFill } from 'react-bootstrap-icons'
 
 const Three = () => {
   return (
@@ -12,9 +12,8 @@ const Three = () => {
       </div>
       <div className='card cardFont mx-5 px-3 py-3 text-center'>
         <Image
-          rounded
-          className='p-3'
-          src='src\components\resources\iglesia.jpg'
+          className='rounded-4 p-3'
+          src='https://i.imgur.com/q26FauV.jpeg'
         />
         <h3 className='fw-bold m-0 fs-4'>Parroquia</h3>
         <h3 className='fw-bold mt-0 fs-4'>'Nstra. Sra. del Valle' </h3>

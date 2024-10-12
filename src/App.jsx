@@ -10,7 +10,7 @@ import Six from './components/sections/Six';
 import Footer from './components/sections/Footer';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
-import audioFile from './components/resources/MILO J - M.A.I (Video Oficial).mp3'
+import audioFile from './components/resources/Sabrina Carpenter - Feather.mp3'
 import {PauseCircleFill, PlayCircleFill} from 'react-bootstrap-icons';
 
 function App() {

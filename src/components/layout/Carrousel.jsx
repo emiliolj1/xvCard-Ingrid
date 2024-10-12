@@ -14,7 +14,7 @@ function Carrousel() {
     <Container fluid >
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          <Image className='carrousel' src='https://i.imgur.com/WLTSpd1.jpeg'/>
+          <Image className='carrousel' src=' '/>
         </Carousel.Item>
       </Carousel>
     </Container>
