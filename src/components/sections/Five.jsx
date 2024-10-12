@@ -18,7 +18,7 @@ const Five = () => {
   return (
     <Container fluid className="fiveInv">
       <div className=' text-center pb-2 pt-4'>
-        <h2 className='titulo fw-bold' style={{fontSize:'2.6rem'}}>Regalos</h2>
+        <h2 className='titulo fw-bold' style={{fontSize:'2.6rem' , fontStyle: 'normal'}}>Regalos</h2>
         <p className='asistenciaFont fs-6 my-0'>Lo mas importante para mi es tu presencia,</p>
         <p className='asistenciaFont fs-6 my-0'>Regalos o dinero seran bienvenidos,</p>
         <p className='asistenciaFont fs-6 my-0'>en el salon vas a encontrar donde</p>
@@ -36,7 +36,7 @@ const Five = () => {
             }
           </Button>
         </CopyToClipboard>
-        <p className='asistenciaFont text-decoration-underline mt-3 fst-italic'>Espero no Faltes!!</p>
+        <p className='asistenciaFont mt-3 fst-italic'>¡Espero no Faltes!</p>
       </div>
     </Container>
   );

@@ -58,6 +58,12 @@
   background-color: var(--seasalt);
 }
 
+.threeTwoInv{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
 .fiveInv{
   background-color: var(--timberwolf);
 }
