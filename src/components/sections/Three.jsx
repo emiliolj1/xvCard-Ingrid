@@ -45,7 +45,7 @@ const Three = () => {
         </div>
         <div className='text-center'>
           <Image
-            src='src\components\resources\dressCode.png'
+            src='https://i.imgur.com/HvkvJP2.png'
             width='350rem'
           />
           <h3 className='pt-1 cardFont fw-semibold' style={{fontSize:'1.3rem', fontStyle: 'normal'}}>Elegante Sport</h3>
@@ -55,5 +55,5 @@ const Three = () => {
     </>
   )
 }
-  
+
 export default Three
