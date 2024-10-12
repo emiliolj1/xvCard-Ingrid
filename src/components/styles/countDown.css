@@ -1,5 +1,5 @@
 .contenedor {
-  color: var(--lightContador);
+  color: var(--seasalt);
   text-align: center;
 }
 
@@ -33,7 +33,7 @@
 .contenido {
   width: 80%;
   margin: 0 auto;
-  border: 0px solid var(--lightContador);
+  border: 0px solid var(--seasalt);
   z-index: 10;
 }
 li {

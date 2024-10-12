@@ -44,18 +44,18 @@
 }
 
 .twoInv{
-  background-image: url(../resources/op4.jpg);
+  background-image: url(../resources/two.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(19, 70, 141, 0.4);
+  background-color: rgba(0, 0, 0, 0.295);
   background-blend-mode: multiply;
 }
 
 .threeInv{
-  background-image: url(../resources/fondoMariposas.png);
+  /* background-image: url(../resources/fondoMariposas.png); */
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--ultraLightGold);
+  background-color: var(--seasalt);
 }
 
 .fiveInv{
@@ -63,7 +63,7 @@
 }
 
 .fourInv{
-  background-color: #fff1c6;
+  background-color: var(--ecru-2);
 }
 
 
@@ -71,7 +71,7 @@
   background-image: url(../resources/end.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgb(0, 0, 0, 0.4);
+  background-color: rgba(70, 136, 113, 0.45);
   background-blend-mode: multiply;
 }
 
@@ -79,30 +79,30 @@
   text-align: center;
 }
 .nombre{
-  color: var(--lightContador);
+  color: var(--seasalt);
   margin-top: 0;
   font-family: var(--fuente);
-  font-weight: bold;
+  font-weight: 500;
   font-style: italic;
   font-size: 50px;
 }
 .misXv{
-  color: var(--lightContador);
+  color: var(--seasalt);
   margin-bottom: 0;
-  font-weight: bold;
+  font-weight: 500;
   font-family: var(--fuente);
   font-style: italic;
   font-size: 25px;
 }
 
 .frase{
-  color: var(--skyBlue);
+  color: var(--antiflash-white);
   margin: 0 1px 1px 0;
   border: 1px;
   font-weight: 600;
   font-family: var(--secFont);
   font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .frase>p{
@@ -110,7 +110,7 @@
 }
 
 .card {
-  background: var(--lightContador);
+  background: var(--ash-gray);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
@@ -139,13 +139,13 @@
 }
 
 .fraseEnd{
-  color: whitesmoke;
+  color: var(--seasalt);
   margin: 0 1px 1px 0;
   border: 1px;
-  font-weight: 200;
+  font-weight: 100;
   font-family: var(--fuente);
   font-style: italic;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .frase>p{
